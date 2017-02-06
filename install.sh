@@ -1,6 +1,8 @@
 #!/bin/bash
 sudo apt-get install build-essential git cmake libboost1.55-all-dev
 stop xmadcoind
+rm xmdcoind
+rm simplewallet
 rm -rf .xmdcoin
 rm -rf xmdcoin
 rm /home/azureuser/xmdcoin/build/release/src/xmdcoind
